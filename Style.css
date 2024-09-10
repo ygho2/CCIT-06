@@ -1,0 +1,70 @@
+#banner{
+    height: 90vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('dark brown.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#banner p{
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn{
+    padding: 15px, 30px;
+    font-weight: 900;
+    border-bottom: 60px;
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: rgb(4, 4, 4);
+    color: #fff;
+    border: 2px solid #333333;
+}
+
+.btn-success:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #333333;
+}
+
+.section{
+    padding: 100px, 0 ;
+}
+
+#specs{
+    background-color: rgb(77, 77, 77);
+}
+
+#specs h2{
+    font-size: 50px;
+    font-family: 900;
+    color: rgb(255, 255, 255);;
+}
+
+.card-body .btn{
+    padding: 15px, 30px;
+    font-weight: 900;
+    border-bottom: 60px;
+    font-size: 18px;
+}
+
+.card-body .btn-success {
+    background-color: rgb(4, 4, 4);
+    color: #fff;
+    border: 2px solid #333333;
+}
+
+.card-body .btn-success:hover{
+    background-color: transparent;
+    color: #000000;
+    border: 2px, solid #333333;
+}
