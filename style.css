@@ -1,0 +1,122 @@
+#banner {
+
+    height: 90vh;
+    background: url('m.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner .row{
+    padding-bottom: 90px;
+}
+
+   .btn {
+    padding: 15px 30px;
+    font-weight: 900;
+    border-radius: 60px;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+
+.btn-brand {
+    background-color: white;
+    color: #141414;
+    border: 2px solid #181717;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: #86421a;
+    border: 2px solid #86421a;
+    -webkit-text-fill-color: #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#about {
+    background-color: rgb(160, 152, 138);
+}
+
+#about h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #964B00;
+}
+
+#about h3 {
+    color: #964B00;
+}
+
+#about p {
+    color: #964B00;
+}
+
+.Ror {
+    width: 40%;
+}
+
+.card {
+    transition: background-color 0.3s, color o.3s;
+    border: 5px solid var(--border); /* Border style */
+    box-shadow: 0 0 10px #964B00;
+    border-radius: 30px;
+}
+
+.card:hover {
+    background-color: #979491;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: #000000;
+}
+
+#services h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+
+#services {
+    background-color: rgb(94, 92, 90);
+    border-color: #ebe7e3;
+}
+
+#cta {
+
+    height: 90vh;
+    background: url('lit.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.testimonials {
+    padding: 30px;  
+    border: 2px solid rgb(37, 131, 87);
+    border-radius: 30px;
+}
+
+.testimonials img {
+
+    width: 65px;
+    border-radius: 100px;
+
+}
+
+.testimonials a {
+    color: rgb(130, 13, 69);
+}
+
+#reviews h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(30, 42, 30);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
